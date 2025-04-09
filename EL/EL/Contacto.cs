@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EL
 {
+    [Table("Contactos")]
     public class Contacto
     {
         public int Id { get; set; }
