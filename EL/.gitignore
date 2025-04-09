@@ -1,9 +1,22 @@
-# Ignorar carpetas temporales de Visual Studio
+# Visual Studio
 .vs/
 *.user
 *.suo
-*.vcxproj.user
 
-# Ignorar carpetas de build
+# Build results
 bin/
 obj/
+*.dll
+*.exe
+
+# NuGet packages
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+
+# Others
+*.log
+*.tmp
+*.bak
